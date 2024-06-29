@@ -24,3 +24,13 @@ Create Back Office Functionality:
 Make the back office accessible only to authorized users.
 Create functionality for managing orders and changing the status of orders.
 This will improve your development skills as you will need to create logic to make certain parts of the application accessible only to specific types of users.
+
+
+Schema for the Cart Class.
+
+If you want to use your own backend, you can import the  schema: https://github.com/fluxscape/fluxscape-template-salesfork/blob/main/schema.json
+
+Using the Demo Backend:
+Backend Endpoint:  https://cloud.fluxscape.io/4HpFl6GwaV
+App Id: salesfork
+Masterkey: 5Fp0OQG0LL{kKaEzlsXyE
