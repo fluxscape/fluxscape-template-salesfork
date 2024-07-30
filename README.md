@@ -9,6 +9,7 @@ The Sales Fork template app is structured to guide users through the initial sta
 
 Once you are ready and understand the basics of Fluxscape, here are a few ideas of what you can do with the app:
 
+
 Implement the concept of User Accounts:
 
 Allow users to sign up and create their accounts.
@@ -17,8 +18,19 @@ This will give you an understanding of how to build multi-user applications with
 Learn how to handle file uploads.
 Create an Order Flow:
 
+Implemented Product IDs
+
+When users add items to the cart, the title is saved to the cart. This is not a best practice because the same title could be used for several products. It is recommended to use an article number or another type of ID that is truly unique across all products.
+
+Also, remember that you should not use a random ID for the product, as this unique ID would change if you had to reimport all your products again. For example, if a product has the unique number "123", after reimporting, it might have the ID "324", which could lead to inconsistent data for older orders.
+
+
 Allow users to create orders containing the items they have put in their cart.
 This will provide you with the skills to manage data and handle the different actions needed to create this type of functionality.
+
+
+
+
 Create Back Office Functionality:
 
 Make the back office accessible only to authorized users.
